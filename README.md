@@ -1,5 +1,5 @@
-Template Portafolio
+Portafolio
 
-Portafolio. Ejemplo de portafolio 
+Mateo Espinosa Cubillos
 
 Hecho en HTML - CSS - JavaScript Vanilla
