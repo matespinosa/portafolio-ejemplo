@@ -259,7 +259,14 @@ img {
     right: 0;
     bottom: 0;
     width: 295px;
+    box-shadow: 0 4px 4px rgba(0,0,0,.35);
 }
+
+
+
+/* .home__img img {
+    width: %;
+} */
 /* ===BUTTONS ===== */
 .button {
     display: inline-block;
@@ -290,6 +297,7 @@ img {
 .about__img img {
     width: 200px;
     border-radius: .5rem;
+    box-shadow: 0 4px 4px rgba(0,0,0,.25);
 }
 /* === SKILLS ===== */
 .skills__container {
@@ -357,6 +365,8 @@ img {
 
 .skills__img {
     border-radius: .5rem;
+    margin-left: 2rem;
+    box-shadow: 0 4px 4px rgba(0,0,0,.25);
 }
 
 /* === WORK ===== */
@@ -477,7 +487,7 @@ img {
         margin-right: var(--mb-4);
     }
     .home__img {
-        width: 457px;
+        width: 393px;
         bottom: 15%;
     }
 
