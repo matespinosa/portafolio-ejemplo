@@ -470,7 +470,7 @@ img {
         color: var(--second-color);
     }
 
-    .hoem {
+    .home {
         height: 100vh;
     }
     .home__data {
@@ -516,6 +516,8 @@ img {
     .bd-grid {
         margin-left: auto;
         margin-right: auto;
+        /* display: flex;
+        flex-direction: column; */
     }
     .home__img {
         right: 10%;
