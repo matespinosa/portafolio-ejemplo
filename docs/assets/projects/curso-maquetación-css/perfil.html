@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Blog</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/font/flaticon.css"> <!--Este archivo nos sirve para linkear el archoivo css de los iconos de las redes sociales-->
+</head>
+<body>
+    <!-------------------------------------HEADER---------------------------------->
+    <header>
+        <section class="header-icons-container"> <!--(ICONOS REDES)La primera parte o sección donde estarán nuestras redes sociales-->
+            <div class="icons"> <!--Va a ocupar el 100% del width, pero va haber un contenedor interno que va a ser un "<div>" con un tamaño definido porque se tendrá que mover al lado derecho -->
+                <a href="/"><span class="flaticon-001-facebook"></span></a> <!--anclas hacía nuestras redes sociales-->
+                <a href="/"><span class="flaticon-002-twitter"></span></a>
+                <a href="/"><span class="flaticon-010-linkedin"></span></a>
+                <a href="/"><span class="flaticon-011-instagram"></span></a>
+                <a href="/"><span class="flaticon-008-youtube"></span></a>
+            </div>
+        </section>
+        <nav> <!--Tiene dos SECCIONES. La parte IZQUIERDA donde estará el logotipo de mi blog. Y la parte DERECHA donde nos llevara directamente hacía mi perfil-->
+            <section class="nav-logo-container">
+                <a href="/"><img src="assets/images/Logo-negro.png" alt="Logo de mi blog"></a>
+            </section>
+            <section class="profile-link">
+                <a href="perfil.html">Sobre mi</a>
+            </section>
+        </nav>
+    </header>
+    <!-----------------------------------------------PERFIL SECTION------------------------------>
+    <main>
+        <section class="profile-main-container"> <!----------------Sección 1-->
+            <div class="grid-container profile-container">
+                <div>
+                    <img src="assets/images/warren.jpg" alt="">
+                </div>
+                <div>
+                    <h2>Hola mi nombre es Mateo Espinosa</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolor tenetur aut in tempore obcaecati sit fuga magnam? Voluptates expedita libero eos nulla ex distinctio a nobis autem quam dignissimos.</p>
+                </div>
+            </div>
+        </section>
+        <section class="profile-main-proyects"> <!-----------------Sección 2-->
+            <div class="grid-container">
+                <h3>Proyectos</h3>
+                <div class="proyects-main-container">
+                    <article class="proyect-container">
+                        <h4>Título</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae corrupti placeat obcaecati temporibus. Consequuntur sed accusamus eligendi sunt esse provident quam animi, eum voluptas rem non voluptates totam! Iusto, voluptatum.</p>
+                    </article>
+                    <article class="proyect-container">
+                        <h4>Título</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae corrupti placeat obcaecati temporibus. Consequuntur sed accusamus eligendi sunt esse provident quam animi, eum voluptas rem non voluptates totam! Iusto, voluptatum.</p>
+                    </article>
+                    <article class="proyect-container">
+                        <h4>Título</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae corrupti placeat obcaecati temporibus. Consequuntur sed accusamus eligendi sunt esse provident quam animi, eum voluptas rem non voluptates totam! Iusto, voluptatum.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="contact-main-container">
+            <div>
+                <img src="assets/images/suscribirse.png" alt="">
+                <div class="contact-left">
+                    <a href="">Contacto</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis, placeat,</p>
+                </div>
+            </div>
+            <div>
+                <img src="assets/images/contacto.png" alt="">
+                <div class="contact-right">
+                    <a href="">Escribe</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--------------------------------------------FOOTER-------------------------------->
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+    </footer>
+</body>
+</html>
