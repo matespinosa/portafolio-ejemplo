@@ -262,10 +262,11 @@ img {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
     border-radius: 2rem;
     margin-right: 1rem;
+    margin-bottom: -2rem;
 }
 
 .home__img img {
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 
 
