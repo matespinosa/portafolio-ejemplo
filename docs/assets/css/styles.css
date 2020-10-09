@@ -262,7 +262,6 @@ img {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
     border-radius: 2rem;
     margin-right: 1rem;
-    margin-bottom: -2rem;
 }
 
 .home__img img {
@@ -500,7 +499,7 @@ img {
     }
     .home__social {
         padding-top: 0;
-        padding-bottom: 2.5rem;
+        padding-bottom: 2.9rem;
         flex-direction: row;
         align-self: flex-end;
     }
@@ -510,7 +509,8 @@ img {
     }
     .home__img {
         width: 393px;
-        bottom: 10%;
+        bottom: -9%;
+        /* margin-bottom: -1rem; */
     }
 
     .about__container, .skills__container {
