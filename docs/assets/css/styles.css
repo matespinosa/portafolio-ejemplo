@@ -515,6 +515,12 @@ img {
         bottom: 20%;
     }
 
+    .final__home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .about__container, .skills__container {
         grid-template-columns: repeat(2,1fr);
         align-items: center;
