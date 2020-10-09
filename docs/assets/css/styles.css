@@ -503,8 +503,11 @@ img {
     .home__social {
         padding-top: 0;
         padding-bottom: 3rem;
-        flex-direction: column;
+        /* display: flex; */
+        flex-direction: row;
         align-self: flex-end;
+        /* align-items: center;
+        justify-content: center; */
     }
     .home__social-icon {
         margin-bottom: 1rem;
