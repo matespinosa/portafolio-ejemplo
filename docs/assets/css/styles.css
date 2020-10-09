@@ -239,9 +239,10 @@ img {
 }
 
 .home__social {
-    /* display: flex; */
+    display: flex;
+    margin-top: 1rem;
     /* justify-content: center; */
-    align-items: center;
+    /* align-items: center; */
 
 }
 
@@ -554,6 +555,8 @@ img {
         flex-direction: column; */
     }
     .home__img {
+        position: absolute;
+        top: 3rem;
         right: 10%;
     }
 }
