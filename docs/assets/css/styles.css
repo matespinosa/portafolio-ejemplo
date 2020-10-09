@@ -509,7 +509,7 @@ img {
     }
     .home__img {
         width: 393px;
-        bottom: -5%;
+        bottom: 10%;
     }
 
     .about__container, .skills__container {
